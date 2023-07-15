@@ -92,6 +92,13 @@ Practice Functions
 Pass the necessary value to the function
 and return the result
 # 8. Find factorial for a number X and print the result.
+def factorialnumber(n):
+    product=1
+    for i in range(1,n+1):
+        product*=i
+    return product
+n=4
+print(factorialnumber(n))
 
 
 # 9. Display N prime number from X .Write and Use findprime(int) function. (refer Q No 1)
